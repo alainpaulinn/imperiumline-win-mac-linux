@@ -1,0 +1,26 @@
+{
+  "name": "imperiumline-win-mac-linux",
+  "version": "1.0.0",
+  "main": "main.js",
+  "description": "Node Video, audio and text Chat application and time management in an organisation created on occasion of graduation project by Alain Paulin Niyonkuru",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "author": "Alain Paulin Niyonkuru",
+  "keywords": ["video", "audio", "text", "chat", "time management"],
+  "license": "ISC",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.4",
+    "@electron-forge/maker-deb": "^6.0.4",
+    "@electron-forge/maker-rpm": "^6.0.4",
+    "@electron-forge/maker-squirrel": "^6.0.4",
+    "@electron-forge/maker-zip": "^6.0.4",
+    "electron": "^22.0.0"
+  }
+}
